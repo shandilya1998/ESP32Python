@@ -1,9 +1,8 @@
 from urllib.request import Request, urlopen
-import cv2 as cv
+import cv2
 import numpy as np
 
 def test_stream(url):
-
     stream = urlopen(url)
     bytes = b''
     while True:
@@ -17,3 +16,7 @@ def test_stream(url):
             cv2.imshow('i', i)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
+
+if __name__ == '__main__':
+    url = 'http://192.168.29.183:81/stream'
+    test_stream(url)
