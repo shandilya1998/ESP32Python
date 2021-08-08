@@ -7,7 +7,7 @@ import {styles} from '../assets/styles';
 import { WebView } from 'react-native-webview';
 
 const MainView = (props) => {
-    const mjpegUrl = 'http://192.168.1.12:81/stream'
+    const mjpegUrl = 'http://192.168.1.12:81'
     return (
         <SafeAreaView style = {styles.mainViewContainer}>
             <WebView 
