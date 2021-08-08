@@ -364,7 +364,7 @@ void WifiSetup() {
         #endif
 
         // Initiate network connection request (3rd argument, channel = 0 is 'auto')
-        WiFi.begin(bestSSID, stationList[bestStation].password, 0, bestBSSID);
+        WiFi.begin(bestSSID, stationList[bestStation].password);//, 0, bestBSSID);
 
         // Wait to connect, or timeout
         unsigned long start = millis(); 
