@@ -43,9 +43,43 @@ export const styles = StyleSheet.create({
     mainViewContainer : {
         flex : 1,
         position : 'relative',
+        //width : 400,
+        //height : 400,
         margin : 2,
         alignSelf : 'stretch',
         justifyContent : 'center',
+        alignItems : 'center',
         backgroundColor : 'white',
+    },
+    mjpegStreamViewContainer : {
+        width : 400,
+        height : 400,
+        marginVertical : 20,
+        marginHorizontal : 5,
+        backgroundColor : 'blue',
+        padding : 5,
+        //alignSelf : 'stretch',
+        //justifyContent : 'flex-start',
+        //alignItems: 'center'
+    },
+    controllerContainer : {
+        flex : 1,
+        backgroundColor : 'pink',
+        justifyContent : 'center',
+        padding : 5,
+        alignSelf : 'stretch',
+        flexDirection : 'row'
+    },
+    buttonsContainer: {
+        flex : 1,
+        backgroundColor : 'yellow',
+        justifyContent : 'center',
+        alignItems : 'center',
+    },
+    axisPadContainer : {
+        flex : 1,
+        backgroundColor : 'green',
+        justifyContent : 'center',
+        alignItems : 'center',
     },
 });

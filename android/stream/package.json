@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "17.0.1",
     "react-native": "0.64.2",
+    "react-native-axis-pad": "^0.9.6",
     "react-native-webview": "^11.6.6"
   },
   "devDependencies": {
